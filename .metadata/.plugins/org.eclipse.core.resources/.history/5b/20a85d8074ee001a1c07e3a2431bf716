@@ -142,13 +142,11 @@ int main(void)
 		  	  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
 		  	  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
 		  }
-		  firstBufferPartState = Empty;
-		  secondBufferPartState = Empty;
-		  WhatBufferPartFull = None;
-		  WhereIsTrigger = None;
-		  IsReadyToDataTransmit == False;
 	  }
-	  /**/
+	  /*firstBufferPartState = Empty;
+		secondBufferPartState = Empty;
+		WhatBufferPartFull = None;
+		WhereIsTrigger = None;*/
 
     /* USER CODE END WHILE */
 

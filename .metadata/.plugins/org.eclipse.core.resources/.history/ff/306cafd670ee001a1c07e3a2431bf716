@@ -130,25 +130,13 @@ int main(void)
   while (1)
   {
 	  if(IsReadyToDataTransmit == True) {
-		  if(WhereIsTrigger == FirstBufferHalf) {
-			  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
-			  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-			  memcpy(dataToTransmit, &dataFromADC[TRACE_SIZE / 2], TRACE_SIZE / 2);
-			  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-		  }
-		  if(WhereIsTrigger == FirstBufferHalf) {
-		  	  memcpy(dataToTransmit, &dataFromADC[TRACE_SIZE / 2], TRACE_SIZE / 2);
-		  	  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-		  	  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
-		  	  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-		  }
-		  firstBufferPartState = Empty;
-		  secondBufferPartState = Empty;
-		  WhatBufferPartFull = None;
-		  WhereIsTrigger = None;
-		  IsReadyToDataTransmit == False;
+		  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
+		  while(CDC_Transmit_FS(Buf, Len) != USBD_OK);
 	  }
-	  /**/
+	  /*firstBufferPartState = Empty;
+		secondBufferPartState = Empty;
+		WhatBufferPartFull = None;
+		WhereIsTrigger = None;*/
 
     /* USER CODE END WHILE */
 

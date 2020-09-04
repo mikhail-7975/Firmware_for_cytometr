@@ -147,6 +147,7 @@ int main(void)
 		  WhatBufferPartFull = None;
 		  WhereIsTrigger = None;
 		  IsReadyToDataTransmit == False;
+		  IsReadyToDataTransmit == False;
 	  }
 	  /**/
 

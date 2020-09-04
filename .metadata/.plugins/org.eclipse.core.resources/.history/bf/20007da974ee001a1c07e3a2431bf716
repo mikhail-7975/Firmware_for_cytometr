@@ -146,7 +146,6 @@ int main(void)
 		  secondBufferPartState = Empty;
 		  WhatBufferPartFull = None;
 		  WhereIsTrigger = None;
-		  IsReadyToDataTransmit == False;
 	  }
 	  /**/
 
