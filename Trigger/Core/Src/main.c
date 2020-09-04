@@ -37,10 +37,11 @@
 #define TRACE_SIZE 1000
 #define True 1
 #define False 0
+#define None 0
 #define Full 1
 #define Empty 0
-#define FirstBufferHalf 1
-#define SecondBufferHalf 0
+#define FirstBufferHalf 11
+#define SecondBufferHalf 22
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -54,9 +55,13 @@ DMA_HandleTypeDef hdma_adc1;
 
 /* USER CODE BEGIN PV */
 uint16_t dataFromADC[TRACE_SIZE];
+uint8_t* dataToTransmit;
+uint32_t particleCounter;
 uint8_t firstBufferPartState;
 uint8_t secondBufferPartState;
-uint8_t TriggerPlacment;
+uint8_t WhatBufferPartFull;
+uint8_t WhereIsTrigger;
+uint8_t IsReadyToDataTransmit;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -105,6 +110,15 @@ int main(void)
   MX_ADC1_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+  uint32_t particleCounter = 0;
+  uint8_t firstBufferPartState = Empty;
+  uint8_t secondBufferPartState = Empty;
+  uint8_t WhatBufferPartFull = None;
+  uint8_t WhereIsTrigger = None;
+  uint8_t IsReadyToDataTransmit = False;
+
+  dataToTransmit = (uint8_t*)malloc(sizeof(uint16_t) * TRACE_SIZE / 2);
+
   for(int i = 0; i < TRACE_SIZE; i++) {
  	  dataFromADC[i] = 0;
    }
@@ -115,6 +129,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if(IsReadyToDataTransmit == True) {
+		  memcpy()
+		  CDC_Transmit_FS(Buf, Len)
+	  }
+	  /*firstBufferPartState = Empty;
+		secondBufferPartState = Empty;
+		WhatBufferPartFull = None;
+		WhereIsTrigger = None;*/
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -179,6 +202,7 @@ static void MX_ADC1_Init(void)
 
   /* USER CODE END ADC1_Init 0 */
 
+  ADC_AnalogWDGConfTypeDef AnalogWDGConfig = {0};
   ADC_ChannelConfTypeDef sConfig = {0};
 
   /* USER CODE BEGIN ADC1_Init 1 */
@@ -194,6 +218,17 @@ static void MX_ADC1_Init(void)
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc1.Init.NbrOfConversion = 1;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure Analog WatchDog 1 
+  */
+  AnalogWDGConfig.WatchdogMode = ADC_ANALOGWATCHDOG_SINGLE_REG;
+  AnalogWDGConfig.HighThreshold = 2012;
+  AnalogWDGConfig.LowThreshold = 0;
+  AnalogWDGConfig.Channel = ADC_CHANNEL_0;
+  AnalogWDGConfig.ITMode = ENABLE;
+  if (HAL_ADC_AnalogWDGConfig(&hadc1, &AnalogWDGConfig) != HAL_OK)
   {
     Error_Handler();
   }
@@ -246,13 +281,44 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
+	WhatBufferPartFull = SecondBufferHalf;
 	dataFromADC[0];
+	if(WhereIsTrigger == FirstBufferHalf) {
+		HAL_ADC_Stop_DMA(&hadc1);
+		IsReadyToDataTransmit = True;
+	}
 }
 
 
 void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef* hadc)
 {
+	WhatBufferPartFull = FirstBufferHalf;
 	dataFromADC[0];
+	if(WhereIsTrigger == SecondBufferHalf) {
+		HAL_ADC_Stop_DMA(&hadc1);
+		IsReadyToDataTransmit = True;
+	}
+}
+
+void HAL_ADC_LevelOutOfWindowCallback(ADC_HandleTypeDef* hadc) {
+	/*if(WhatBufferPartFull == FirstBufferHalf)
+		WhereIsTrigger = SecondBufferHalf;
+	else
+		WhereIsTrigger = FirstBufferHalf;*/
+	switch(WhatBufferPartFull) {
+
+		case FirstBufferHalf:
+			WhereIsTrigger = SecondBufferHalf;
+			break;
+
+		case SecondBufferHalf:
+			WhereIsTrigger = FirstBufferHalf;
+			break;
+
+		default:
+			break;
+	}
+	particleCounter++;
 }
 /* USER CODE END 4 */
 
