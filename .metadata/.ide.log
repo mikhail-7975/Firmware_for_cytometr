@@ -407,3 +407,632 @@
 2020-09-04 11:02:43,045 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 11693mS.
 2020-09-04 11:02:43,046 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
 2020-09-04 11:02:43,048 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-04 11:19:23,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,601 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,609 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,609 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,609 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,610 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,610 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,610 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,611 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,611 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,612 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:25:58,672 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,491 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,495 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,495 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,495 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,495 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,496 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,496 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,496 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,497 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:29:56,521 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,676 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,682 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,683 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,684 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,684 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,684 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,685 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,685 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,685 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,686 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,686 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,686 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,686 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,687 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,687 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:02,712 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-09-04 11:30:12,497 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x420,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-09-04 11:30:16,284 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 445670392 Bytes (902823936)
+2020-09-04 11:30:17,695 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 453302128 Bytes (902823936)
+2020-09-04 11:30:18,537 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 461939656 Bytes (902823936)
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: DMA
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB_DEVICE
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-09-04 11:30:18,738 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-09-04 11:30:18,739 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-09-04 11:30:18,745 [INFO] Argument:278 - Argument : hdmavalue: null
+2020-09-04 11:30:18,745 [INFO] Argument:280 - 	 sub Args: 
+2020-09-04 11:30:18,745 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2020-09-04 11:30:18,745 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2020-09-04 11:30:18,745 [INFO] Argument:278 - Argument : Initvalue: null
+2020-09-04 11:30:18,745 [INFO] Argument:280 - 	 sub Args: 
+2020-09-04 11:30:18,745 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-09-04 11:30:18,745 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-09-04 11:30:18,745 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-09-04 11:30:18,745 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : Lockvalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : Lockvalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : Statevalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : Statevalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : Parentvalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : Parentvalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2020-09-04 11:30:18,746 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2020-09-04 11:30:18,747 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2020-09-04 11:30:18,985 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp_save
+2020-09-04 11:30:19,041 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp
+2020-09-04 11:30:19,078 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp_save
+2020-09-04 11:30:19,154 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp
+2020-09-04 11:30:19,157 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-04 11:30:19,256 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp_save
+2020-09-04 11:30:19,330 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp
+2020-09-04 11:30:19,354 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp_save
+2020-09-04 11:30:19,424 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp
+2020-09-04 11:30:19,466 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp_save
+2020-09-04 11:30:19,531 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp
+2020-09-04 11:30:19,564 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp_save
+2020-09-04 11:30:19,661 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp
+2020-09-04 11:30:19,753 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-04 11:30:19,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-09-04 11:30:19,756 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-04 11:30:19,759 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-04 11:30:19,761 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for DMA
+2020-09-04 11:30:19,763 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-04 11:30:19,855 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp_save
+2020-09-04 11:30:20,039 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp
+2020-09-04 11:30:20,068 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp_save
+2020-09-04 11:30:20,145 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp
+2020-09-04 11:30:20,147 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-04 11:30:20,155 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-09-04 11:30:20,191 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c_save
+2020-09-04 11:30:20,339 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c
+2020-09-04 11:30:20,366 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h_save
+2020-09-04 11:30:20,499 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h
+2020-09-04 11:30:20,526 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h_save
+2020-09-04 11:30:20,614 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h
+2020-09-04 11:30:20,753 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c_save
+2020-09-04 11:30:20,889 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c
+2020-09-04 11:30:20,912 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h_save
+2020-09-04 11:30:21,206 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h
+2020-09-04 11:30:21,243 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c_save
+2020-09-04 11:30:21,370 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c
+2020-09-04 11:30:21,391 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h_save
+2020-09-04 11:30:21,574 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h
+2020-09-04 11:30:21,607 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c_save
+2020-09-04 11:30:21,774 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c
+2020-09-04 11:30:21,776 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-09-04 11:30:21,777 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-04 11:30:21,810 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c_save
+2020-09-04 11:30:21,898 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c
+2020-09-04 11:30:21,921 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h_save
+2020-09-04 11:30:22,068 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h
+2020-09-04 11:30:22,105 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-04 11:30:22,315 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c
+2020-09-04 11:30:22,338 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp_save
+2020-09-04 11:30:22,421 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp
+2020-09-04 11:30:22,471 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-04 11:30:22,621 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-04 11:30:22,629 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-09-04 11:30:22,630 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-09-04 11:30:22,662 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h_save
+2020-09-04 11:30:22,862 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h
+2020-09-04 11:30:22,899 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c_save
+2020-09-04 11:30:23,068 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c
+2020-09-04 11:30:23,936 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 504mS.
+2020-09-04 11:30:23,939 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-09-04 11:30:24,303 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-09-04 11:30:26,714 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2775mS.
+2020-09-04 11:30:26,715 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-04 11:30:26,718 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-05 14:27:41,452 [INFO] Activator:176 - 
+
+
+2020-09-05 14:27:41,533 [INFO] Activator:177 - !SESSION log4j initialized
+2020-09-09 09:04:08,841 [INFO] Activator:176 - 
+
+
+2020-09-09 09:04:08,890 [INFO] Activator:177 - !SESSION log4j initialized
+2020-09-09 10:41:09,786 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-09-09 10:41:09,853 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-09-09 10:41:09,858 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-09-09 10:41:09,859 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:09,859 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:10,020 [INFO] DbMcusAds:85 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,021 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,023 [INFO] DbMcusJson:61 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,023 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,024 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,146 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-09 10:41:10,494 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-09-09 10:41:10,825 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2020-09-09 10:41:10,825 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-09-09 10:41:10,826 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-09-09 10:41:10,826 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:10,827 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:10,827 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,827 [INFO] DbMcusAds:85 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,828 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,828 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,828 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,828 [INFO] DbMcusJson:61 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,828 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,828 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,829 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,829 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:10,829 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,829 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:10,829 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-09 10:41:11,060 [INFO] MainPanel:181 - HeapMemory: 348127232
+2020-09-09 10:41:11,213 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-09-09 10:41:11,213 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-09-09 10:41:11,213 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:11,213 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-09-09 10:41:11,214 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,214 [INFO] DbMcusAds:85 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:11,214 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,215 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:11,215 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,215 [INFO] DbMcusJson:61 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:11,215 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,215 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:11,216 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,216 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-09 10:41:11,216 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,216 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder/ => C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder
+2020-09-09 10:41:11,216 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\mikhail7975\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-09 10:41:11,245 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-09-09 10:41:11,246 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-09-09 10:41:11,287 [INFO] PluginManage:292 - Check plugin analytics
+2020-09-09 10:41:11,338 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-09-09 10:41:11,338 [INFO] PluginManage:292 - Check plugin clock
+2020-09-09 10:41:11,375 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-09-09 10:41:11,375 [INFO] PluginManage:292 - Check plugin ddr
+2020-09-09 10:41:11,401 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-09-09 10:41:11,401 [INFO] PluginManage:292 - Check plugin filemanager
+2020-09-09 10:41:11,804 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-09-09 10:41:11,805 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-09-09 10:41:11,841 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-09-09 10:41:11,842 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-09-09 10:41:11,884 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-09-09 10:41:11,885 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-09-09 10:41:12,007 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-09-09 10:41:12,008 [INFO] PluginManage:292 - Check plugin power
+2020-09-09 10:41:12,073 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-09-09 10:41:12,073 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-09-09 10:41:12,106 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-09-09 10:41:12,107 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-09-09 10:41:12,228 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/mikhail7975/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 17 ms. number of Sw pack : 1
+2020-09-09 10:41:12,281 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-09-09 10:41:12,281 [INFO] PluginManage:292 - Check plugin tools
+2020-09-09 10:41:12,316 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-09-09 10:41:12,316 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-09-09 10:41:12,435 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-09-09 10:41:12,435 [INFO] PluginManage:292 - Check plugin updater
+2020-09-09 10:41:12,475 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-09-09 10:41:12,475 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-09-09 10:41:12,998 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-09-09 10:41:13,286 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,287 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-09-09 10:41:13,367 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,368 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-09-09 10:41:13,471 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,472 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-09-09 10:41:13,498 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,498 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-09-09 10:41:13,557 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,558 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-09-09 10:41:13,588 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,588 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-09-09 10:41:13,599 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,600 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-09-09 10:41:13,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,630 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-09-09 10:41:13,681 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,681 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-09-09 10:41:13,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,709 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-09-09 10:41:13,723 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,723 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-09-09 10:41:13,849 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,849 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-09-09 10:41:13,971 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,971 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-09-09 10:41:13,994 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:13,995 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-09-09 10:41:14,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,047 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-09-09 10:41:14,073 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,074 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-09-09 10:41:14,163 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,164 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-09-09 10:41:14,253 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,253 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-09-09 10:41:14,358 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,359 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-09-09 10:41:14,465 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,466 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-09-09 10:41:14,483 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,483 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-09-09 10:41:14,500 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,501 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-09-09 10:41:14,579 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,579 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-09-09 10:41:14,661 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,664 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-09-09 10:41:14,710 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,713 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-09-09 10:41:14,730 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,730 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-09-09 10:41:14,755 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,756 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-09-09 10:41:14,837 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,838 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-09-09 10:41:14,877 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,877 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-09-09 10:41:14,984 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:14,984 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-09-09 10:41:15,014 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,015 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-09-09 10:41:15,082 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,082 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-09-09 10:41:15,111 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,112 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-09-09 10:41:15,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,151 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-09-09 10:41:15,181 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,181 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-09-09 10:41:15,216 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,216 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-09-09 10:41:15,255 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:15,256 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-09-09 10:41:16,468 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-09-09 10:41:16,469 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-09-09 10:41:16,812 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-09-09 10:41:17,410 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-09-09 10:41:17,414 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-09-09 10:41:17,416 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-09-09 10:41:17,420 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-09-09 10:41:17,421 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-09-09 10:41:17,428 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-09-09 10:41:18,235 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-09-09 10:41:18,236 [ERROR] IntegrityCheckThread:252 - Cannot obtain thirdParties list 21
+2020-09-09 10:41:18,236 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2020-09-09 10:41:18,236 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/mikhail7975/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-09-09 10:41:18,432 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-09-09 10:41:18,679 [INFO] Updater:886 - Updater Version found : 5.6.0
+2020-09-09 10:41:18,796 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-09-09 10:41:19,303 [INFO] MainUpdater:452 - Copy updater definitions from MX database
+2020-09-09 10:41:21,147 [INFO] MainUpdater:2230 - connection check result : 10
+2020-09-09 10:41:21,147 [INFO] MainUpdater:2874 - Updater definition file requires update
+2020-09-09 10:41:21,148 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-09-09 10:41:21,148 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-09-09 10:41:21,794 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2020-09-09 10:41:25,283 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2020-09-09 10:41:25,283 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-09-09 10:41:27,434 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2020-09-09 10:41:28,097 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2020-09-09 10:41:28,295 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2020-09-09 10:41:28,331 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-09-09 10:41:28,492 [INFO] MainUpdater:2230 - connection check result : 10
+2020-09-09 10:41:29,203 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-09-09 10:41:29,203 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-09-09 10:41:29,206 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-09-09 10:41:29,206 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 239340400 Bytes (790626304)
+2020-09-09 10:41:29,206 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-09-09 10:41:29,207 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-09-09 10:41:29,207 [INFO] OpenFileManager:274 - Change cursor
+2020-09-09 10:41:31,565 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (0#ChannelRegularConversion) currently not set
+2020-09-09 10:41:31,565 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (0#ChannelRegularConversion) currently not set
+2020-09-09 10:41:31,565 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (0#ChannelRegularConversion) currently not set
+2020-09-09 10:41:31,566 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2020-09-09 10:41:31,567 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2020-09-09 10:41:31,567 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2020-09-09 10:41:31,567 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2020-09-09 10:41:31,567 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2020-09-09 10:41:31,568 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2020-09-09 10:41:31,568 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2020-09-09 10:41:31,568 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2020-09-09 10:41:31,569 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-09-09 10:41:31,767 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 387713888 Bytes (790626304)
+2020-09-09 10:41:31,767 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-09-09 10:41:32,415 [INFO] DbMcusJson:90 - JSON generation date=Mon Jul 27 19:58:30 NOVT 2020 (1595854710)
+2020-09-09 10:41:33,110 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-09-09 10:41:33,111 [INFO] ApiDb:158 - Load user favorites file C:\Users\mikhail7975/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-09-09 10:41:33,111 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-09-09 10:41:33,111 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-09-09 10:41:33,115 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/mikhail7975/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 1
+2020-09-09 10:41:33,224 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-09-09 10:41:33,645 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-09-09 10:41:33,646 [INFO] PinOutPanel:1420 - setPackage(STM32F103C8Tx,LQFP48)
+2020-09-09 10:41:34,318 [INFO] UtilMem:74 - Before build in PCC Used Memory: 454208208 Bytes (881852416)
+2020-09-09 10:41:35,242 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/mikhail7975/.stm32cubemx/plugins/power
+2020-09-09 10:41:35,320 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/mikhail7975/.stm32cubemx/plugins/power
+2020-09-09 10:41:35,403 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/mikhail7975/.stm32cubemx/plugins/power
+2020-09-09 10:41:35,408 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/mikhail7975/.stm32cubemx/plugins/power
+2020-09-09 10:41:35,683 [INFO] UtilMem:74 - After build in PCC Used Memory: 510831312 Bytes (881852416)
+2020-09-09 10:41:35,703 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,704 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,705 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,705 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,705 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,705 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,706 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,706 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,706 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,706 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,707 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,707 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,707 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,707 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,707 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,708 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-09-09 10:41:35,780 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-09-09 10:41:35,900 [INFO] OpenFileManager:294 - Restore cursor
+2020-09-09 12:40:18,327 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x420,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-09-09 12:40:26,435 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 695365256 Bytes (881852416)
+2020-09-09 12:40:28,153 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705407976 Bytes (881852416)
+2020-09-09 12:40:28,537 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 716257128 Bytes (881852416)
+2020-09-09 12:40:29,406 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-09-09 12:40:29,406 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: DMA
+2020-09-09 12:40:29,406 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB_DEVICE
+2020-09-09 12:40:29,406 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB
+2020-09-09 12:40:29,406 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-09-09 12:40:29,407 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-09-09 12:40:29,407 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-09-09 12:40:29,407 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-09-09 12:40:29,408 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-09-09 12:40:29,950 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp_save
+2020-09-09 12:40:30,547 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp
+2020-09-09 12:40:30,896 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp_save
+2020-09-09 12:40:31,015 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp
+2020-09-09 12:40:31,018 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 12:40:31,125 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp_save
+2020-09-09 12:40:31,217 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp
+2020-09-09 12:40:31,255 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp_save
+2020-09-09 12:40:31,334 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp
+2020-09-09 12:40:31,430 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp_save
+2020-09-09 12:40:31,599 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp
+2020-09-09 12:40:31,640 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp_save
+2020-09-09 12:40:31,756 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp
+2020-09-09 12:40:31,999 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 12:40:32,000 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-09-09 12:40:32,000 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 12:40:32,002 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 12:40:32,003 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for DMA
+2020-09-09 12:40:32,004 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 12:40:32,052 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp_save
+2020-09-09 12:40:32,130 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp
+2020-09-09 12:40:32,157 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp_save
+2020-09-09 12:40:32,217 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp
+2020-09-09 12:40:32,219 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 12:40:32,230 [INFO] ApiDbMcu:451 - Load IP Config File for USB_DEVICE
+2020-09-09 12:40:32,246 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-09-09 12:40:32,289 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c_save
+2020-09-09 12:40:32,409 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c
+2020-09-09 12:40:32,467 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h_save
+2020-09-09 12:40:32,604 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h
+2020-09-09 12:40:32,649 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h_save
+2020-09-09 12:40:32,736 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h
+2020-09-09 12:40:32,786 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c_save
+2020-09-09 12:40:33,005 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c
+2020-09-09 12:40:33,095 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h_save
+2020-09-09 12:40:33,236 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h
+2020-09-09 12:40:33,294 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c_save
+2020-09-09 12:40:33,386 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c
+2020-09-09 12:40:33,442 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h_save
+2020-09-09 12:40:33,503 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h
+2020-09-09 12:40:33,633 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c_save
+2020-09-09 12:40:33,725 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c
+2020-09-09 12:40:33,727 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-09-09 12:40:33,728 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 12:40:33,773 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c_save
+2020-09-09 12:40:33,935 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c
+2020-09-09 12:40:33,966 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h_save
+2020-09-09 12:40:34,161 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h
+2020-09-09 12:40:34,226 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-09 12:40:34,326 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c
+2020-09-09 12:40:34,367 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp_save
+2020-09-09 12:40:34,418 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp
+2020-09-09 12:40:34,471 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-09 12:40:34,587 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-09 12:40:34,598 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-09-09 12:40:34,599 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-09-09 12:40:34,638 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h_save
+2020-09-09 12:40:34,717 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h
+2020-09-09 12:40:34,771 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c_save
+2020-09-09 12:40:34,974 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c
+2020-09-09 12:40:37,437 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 1882mS.
+2020-09-09 12:40:37,459 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-09-09 12:40:37,744 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-09-09 12:40:52,323 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 14864mS.
+2020-09-09 12:40:52,324 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-09-09 12:40:52,327 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-09 13:03:33,275 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 656599920 Bytes (944766976)
+2020-09-09 13:03:35,275 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 663269040 Bytes (944766976)
+2020-09-09 13:03:35,500 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 674615560 Bytes (944766976)
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: DMA
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB_DEVICE
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-09-09 13:03:35,766 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-09-09 13:03:35,767 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-09-09 13:03:35,773 [INFO] Argument:278 - Argument : hdmavalue: null
+2020-09-09 13:03:35,787 [INFO] Argument:280 - 	 sub Args: 
+2020-09-09 13:03:35,787 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2020-09-09 13:03:35,787 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2020-09-09 13:03:35,787 [INFO] Argument:278 - Argument : Initvalue: null
+2020-09-09 13:03:35,787 [INFO] Argument:280 - 	 sub Args: 
+2020-09-09 13:03:35,787 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-09-09 13:03:35,787 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : Lockvalue: null
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : Lockvalue: null
+2020-09-09 13:03:35,788 [INFO] Argument:278 - Argument : Statevalue: null
+2020-09-09 13:03:35,788 [INFO] Argument:288 - Argument : Statevalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:278 - Argument : Parentvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:288 - Argument : Parentvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2020-09-09 13:03:35,789 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2020-09-09 13:03:36,217 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp_save
+2020-09-09 13:03:36,285 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\license.tmp
+2020-09-09 13:03:36,330 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp_save
+2020-09-09 13:03:36,389 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\gpio.tmp
+2020-09-09 13:03:36,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 13:03:36,491 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp_save
+2020-09-09 13:03:36,534 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_vars.tmp
+2020-09-09 13:03:36,555 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp_save
+2020-09-09 13:03:36,600 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_inc.tmp
+2020-09-09 13:03:36,643 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp_save
+2020-09-09 13:03:36,701 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_HalInit.tmp
+2020-09-09 13:03:36,762 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp_save
+2020-09-09 13:03:36,826 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\usb_Msp.tmp
+2020-09-09 13:03:36,912 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 13:03:36,914 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-09-09 13:03:36,914 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 13:03:36,916 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 13:03:36,916 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for DMA
+2020-09-09 13:03:36,917 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 13:03:36,972 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp_save
+2020-09-09 13:03:37,017 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma.tmp
+2020-09-09 13:03:37,038 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp_save
+2020-09-09 13:03:37,078 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\dma_GV.tmp
+2020-09-09 13:03:37,080 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-09 13:03:37,238 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-09-09 13:03:37,319 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c_save
+2020-09-09 13:03:37,685 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.c
+2020-09-09 13:03:37,839 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h_save
+2020-09-09 13:03:38,223 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usb_device.h
+2020-09-09 13:03:38,285 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h_save
+2020-09-09 13:03:38,359 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.h
+2020-09-09 13:03:38,427 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c_save
+2020-09-09 13:03:38,518 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\Target\usbd_conf.c
+2020-09-09 13:03:38,564 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h_save
+2020-09-09 13:03:38,648 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.h
+2020-09-09 13:03:38,773 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c_save
+2020-09-09 13:03:38,878 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_desc.c
+2020-09-09 13:03:38,926 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h_save
+2020-09-09 13:03:39,079 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.h
+2020-09-09 13:03:39,197 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c_save
+2020-09-09 13:03:39,296 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\USB_DEVICE\App\usbd_cdc_if.c
+2020-09-09 13:03:39,298 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-09-09 13:03:39,299 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-09-09 13:03:39,613 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c_save
+2020-09-09 13:03:39,837 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_it.c
+2020-09-09 13:03:39,898 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h_save
+2020-09-09 13:03:40,088 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_it.h
+2020-09-09 13:03:40,152 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-09 13:03:40,237 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\stm32f1xx_hal_msp.c
+2020-09-09 13:03:40,281 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp_save
+2020-09-09 13:03:40,324 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\MXTmpFiles\system.tmp
+2020-09-09 13:03:40,389 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-09 13:03:40,467 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-09 13:03:40,477 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-09-09 13:03:40,477 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-09-09 13:03:40,530 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h_save
+2020-09-09 13:03:40,591 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Inc\main.h
+2020-09-09 13:03:40,643 [INFO] CodeEngine:188 - oldGeneratedFile, F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c_save
+2020-09-09 13:03:40,763 [INFO] CodeEngine:206 - Generated code: F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\Core\Src\main.c
+2020-09-09 13:03:42,102 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 951mS.
+2020-09-09 13:03:42,106 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-09-09 13:03:42,317 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-09-09 13:03:44,926 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2820mS.
+2020-09-09 13:03:44,926 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-09 13:03:44,968 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-09-09 15:12:43,969 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,118 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,448 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,468 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,508 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,508 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,528 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,528 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,548 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,548 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,588 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,588 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,638 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,638 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,688 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,688 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,738 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,738 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:12:44,778 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2020-09-09 15:12:44,808 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-09-09 15:53:54,723 [INFO] Activator:176 - 
+
+
+2020-09-09 15:53:54,766 [INFO] Activator:177 - !SESSION log4j initialized

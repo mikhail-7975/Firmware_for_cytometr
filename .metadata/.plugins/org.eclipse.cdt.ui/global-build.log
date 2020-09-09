@@ -1,4 +1,4 @@
-13:12:29 **** Incremental Build of configuration Debug for project Trigger ****
+13:36:14 **** Incremental Build of configuration Debug for project Trigger ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../USB_DEVICE/Target -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Core/Inc -I../USB_DEVICE/App -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
@@ -12,30 +12,28 @@ In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
  HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
                          ^~~~~~~~~~~~~~~~~
-../Core/Src/main.c:135:12: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
-      while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-            ^~~~~~~~~~~~~~~
-../Core/Src/main.c:149:27: warning: statement with no effect [-Wunused-value]
+../Core/Src/main.c:148:11: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+     while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE) != USBD_OK);
+           ^~~~~~~~~~~~~~~
+../Core/Src/main.c:154:27: warning: statement with no effect [-Wunused-value]
      IsReadyToDataTransmit == False;
                            ^
-../Core/Src/main.c:116:11: warning: variable 'WhatBufferPartFull' set but not used [-Wunused-but-set-variable]
-   uint8_t WhatBufferPartFull = None;
-           ^~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:115:11: warning: variable 'secondBufferPartState' set but not used [-Wunused-but-set-variable]
-   uint8_t secondBufferPartState = Empty;
-           ^~~~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:114:11: warning: variable 'firstBufferPartState' set but not used [-Wunused-but-set-variable]
-   uint8_t firstBufferPartState = Empty;
-           ^~~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:113:12: warning: unused variable 'particleCounter' [-Wunused-variable]
-   uint32_t particleCounter = 0;
-            ^~~~~~~~~~~~~~~
+../Core/Src/main.c:155:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+     HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                               ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
 ../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
-../Core/Src/main.c:297:13: warning: statement with no effect [-Wunused-value]
+../Core/Src/main.c:303:13: warning: statement with no effect [-Wunused-value]
   dataFromADC[0];
   ~~~~~~~~~~~^~~
 ../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
-../Core/Src/main.c:308:13: warning: statement with no effect [-Wunused-value]
+../Core/Src/main.c:316:13: warning: statement with no effect [-Wunused-value]
   dataFromADC[0];
   ~~~~~~~~~~~^~~
 arm-none-eabi-gcc -o "Trigger.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Trigger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -45,7 +43,164 @@ arm-none-eabi-objdump -h -S  Trigger.elf  > "Trigger.list"
 arm-none-eabi-objcopy  -O binary  Trigger.elf  "Trigger.bin"
 arm-none-eabi-size   Trigger.elf 
    text	   data	    bss	    dec	    hex	filename
-  26568	    488	   7856	  34912	   8860	Trigger.elf
+  26468	    488	   7856	  34812	   87fc	Trigger.elf
+Finished building: default.size.stdout
+ 
+Finished building: Trigger.bin
+ 
+Finished building: Trigger.list
+ 
+14:05:26 **** Incremental Build of configuration Debug for project Trigger ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../USB_DEVICE/Target -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Core/Inc -I../USB_DEVICE/App -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:30: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+    HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                              ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:154:27: warning: statement with no effect [-Wunused-value]
+     IsReadyToDataTransmit == False;
+                           ^
+../Core/Src/main.c:155:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+     HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                               ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:303:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:316:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "Trigger.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Trigger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Trigger.elf
+ 
+arm-none-eabi-objdump -h -S  Trigger.elf  > "Trigger.list"
+arm-none-eabi-objcopy  -O binary  Trigger.elf  "Trigger.bin"
+arm-none-eabi-size   Trigger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26276	    488	   7856	  34620	   873c	Trigger.elf
+Finished building: default.size.stdout
+ 
+Finished building: Trigger.list
+ 
+Finished building: Trigger.bin
+ 
+14:20:36 **** Incremental Build of configuration Debug for project Trigger ****
+make -j8 all 
+arm-none-eabi-size   Trigger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26276	    488	   7856	  34620	   873c	Trigger.elf
+Finished building: default.size.stdout
+ 
+14:21:42 **** Incremental Build of configuration Debug for project Trigger ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../USB_DEVICE/Target -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Core/Inc -I../USB_DEVICE/App -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:30: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+    HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                              ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:154:27: warning: statement with no effect [-Wunused-value]
+     IsReadyToDataTransmit == False;
+                           ^
+../Core/Src/main.c:155:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+     HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                               ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:303:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:316:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "Trigger.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Trigger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Trigger.elf
+ 
+arm-none-eabi-objdump -h -S  Trigger.elf  > "Trigger.list"
+arm-none-eabi-objcopy  -O binary  Trigger.elf  "Trigger.bin"
+arm-none-eabi-size   Trigger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26284	    488	   7856	  34628	   8744	Trigger.elf
+Finished building: default.size.stdout
+ 
+Finished building: Trigger.bin
+ 
+Finished building: Trigger.list
+ 
+14:26:04 **** Incremental Build of configuration Debug for project Trigger ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../USB_DEVICE/Target -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Core/Inc -I../USB_DEVICE/App -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:30: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+    HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                              ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:148:11: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+     while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE) != USBD_OK);
+           ^~~~~~~~~~~~~~~
+../Core/Src/main.c:154:27: warning: statement with no effect [-Wunused-value]
+     IsReadyToDataTransmit == False;
+                           ^
+../Core/Src/main.c:155:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+     HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
+                               ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
+ HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:303:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:316:13: warning: statement with no effect [-Wunused-value]
+  dataFromADC[0];
+  ~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "Trigger.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Trigger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Trigger.elf
+ 
+arm-none-eabi-objdump -h -S  Trigger.elf  > "Trigger.list"
+arm-none-eabi-objcopy  -O binary  Trigger.elf  "Trigger.bin"
+arm-none-eabi-size   Trigger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26476	    488	   7856	  34820	   8804	Trigger.elf
 Finished building: default.size.stdout
  
 Finished building: Trigger.bin

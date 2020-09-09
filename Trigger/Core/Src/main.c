@@ -110,14 +110,14 @@ int main(void)
   MX_ADC1_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  uint32_t particleCounter = 0;
-  uint8_t firstBufferPartState = Empty;
-  uint8_t secondBufferPartState = Empty;
-  uint8_t WhatBufferPartFull = None;
-  uint8_t WhereIsTrigger = None;
-  uint8_t IsReadyToDataTransmit = False;
+  particleCounter = 0;
+  firstBufferPartState = Empty;
+  secondBufferPartState = Empty;
+  WhatBufferPartFull = None;
+  WhereIsTrigger = None;
+  IsReadyToDataTransmit = False;
 
-  dataToTransmit = (uint8_t*)malloc(sizeof(uint16_t) * TRACE_SIZE / 2);
+  dataToTransmit = (uint8_t*)malloc(sizeof(uint16_t) * TRACE_SIZE);
 
   for(int i = 0; i < TRACE_SIZE; i++) {
  	  dataFromADC[i] = 0;
@@ -129,24 +129,30 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if(IsReadyToDataTransmit == True) {
-		  if(WhereIsTrigger == FirstBufferHalf) {
+	 if(IsReadyToDataTransmit == True) {
+	 //if(1) {
+		  /*if(WhereIsTrigger == FirstBufferHalf) {
 			  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
 			  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
 			  memcpy(dataToTransmit, &dataFromADC[TRACE_SIZE / 2], TRACE_SIZE / 2);
 			  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-		  }
-		  if(WhereIsTrigger == FirstBufferHalf) {
+		  } else {
+		  //if(WhereIsTrigger == FirstBufferHalf) {
 		  	  memcpy(dataToTransmit, &dataFromADC[TRACE_SIZE / 2], TRACE_SIZE / 2);
 		  	  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
 		  	  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE / 2);
 		  	  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE / 2) != USBD_OK);
-		  }
+		  }*/
+		  memcpy(dataToTransmit, &dataFromADC, TRACE_SIZE * sizeof(uint16_t));
+		  //CDC_Transmit_FS(dataToTransmit, TRACE_SIZE);
+		  while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE) != USBD_OK);
+		  //HAL_Delay(1000);
 		  firstBufferPartState = Empty;
 		  secondBufferPartState = Empty;
 		  WhatBufferPartFull = None;
 		  WhereIsTrigger = None;
 		  IsReadyToDataTransmit == False;
+		  HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
 	  }
 	  /**/
 
@@ -299,6 +305,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 		HAL_ADC_Stop_DMA(&hadc1);
 		IsReadyToDataTransmit = True;
 	}
+	HAL_ADC_Stop_DMA(&hadc1);
+	IsReadyToDataTransmit = True;
 }
 
 
@@ -306,10 +314,10 @@ void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef* hadc)
 {
 	WhatBufferPartFull = FirstBufferHalf;
 	dataFromADC[0];
-	if(WhereIsTrigger == SecondBufferHalf) {
-		HAL_ADC_Stop_DMA(&hadc1);
-		IsReadyToDataTransmit = True;
-	}
+	//if(WhereIsTrigger == SecondBufferHalf) {
+	//	HAL_ADC_Stop_DMA(&hadc1);
+	//	IsReadyToDataTransmit = True;
+	//}
 }
 
 void HAL_ADC_LevelOutOfWindowCallback(ADC_HandleTypeDef* hadc) {
