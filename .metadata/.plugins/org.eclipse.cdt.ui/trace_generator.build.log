@@ -1,0 +1,10 @@
+00:26:59 **** Incremental Build of configuration Debug for project trace_generator ****
+make -j8 all 
+arm-none-eabi-size   trace_generator.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11812	     24	   1592	  13428	   3474	trace_generator.elf
+Finished building: default.size.stdout
+ 
+
+00:26:59 Build Finished. 0 errors, 0 warnings. (took 569ms)
+

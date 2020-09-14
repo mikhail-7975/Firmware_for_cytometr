@@ -1,0 +1,10 @@
+00:32:49 **** Incremental Build of configuration Debug for project TestDMA ****
+make -j8 all 
+arm-none-eabi-size   TestDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31644	    388	  11956	  43988	   abd4	TestDMA.elf
+Finished building: default.size.stdout
+ 
+
+00:32:50 Build Finished. 0 errors, 0 warnings. (took 573ms)
+

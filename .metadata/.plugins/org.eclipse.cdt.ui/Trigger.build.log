@@ -1,8 +1,22 @@
-14:26:04 **** Incremental Build of configuration Debug for project Trigger ****
+18:46:42 **** Incremental Build of configuration Debug for project Trigger ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../USB_DEVICE/Target -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Core/Inc -I../USB_DEVICE/App -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:82:1: warning: "/*" within comment [-Wcomment]
+ /**
+  
+../Core/Src/main.c: In function 'dac_w':
+../Core/Src/main.c:100:27: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  HAL_SPI_Transmit(&hspi1, &dac_data, 1, 100);
+                           ^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:329:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:667:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'uint16_t * {aka short unsigned int *}'
+ HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:125:30: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+../Core/Src/main.c:149:30: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
     HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
                               ^
 In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
@@ -12,13 +26,14 @@ In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:929:25: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t (*)[1000] {aka short unsigned int (*)[1000]}'
  HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
                          ^~~~~~~~~~~~~~~~~
-../Core/Src/main.c:148:11: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+../Core/Src/main.c:172:11: warning: implicit declaration of function 'CDC_Transmit_FS'; did you mean 'HAL_SPI_Transmit_IT'? [-Wimplicit-function-declaration]
      while(CDC_Transmit_FS(dataToTransmit, TRACE_SIZE) != USBD_OK);
            ^~~~~~~~~~~~~~~
-../Core/Src/main.c:154:27: warning: statement with no effect [-Wunused-value]
+           HAL_SPI_Transmit_IT
+../Core/Src/main.c:182:27: warning: statement with no effect [-Wunused-value]
      IsReadyToDataTransmit == False;
                            ^
-../Core/Src/main.c:155:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+../Core/Src/main.c:183:31: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
      HAL_ADC_Start_DMA(&hadc1, &dataFromADC, TRACE_SIZE);
                                ^
 In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
@@ -29,11 +44,11 @@ In file included from ../Core/Inc/stm32f1xx_hal_conf.h:273:0,
  HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
                          ^~~~~~~~~~~~~~~~~
 ../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
-../Core/Src/main.c:303:13: warning: statement with no effect [-Wunused-value]
+../Core/Src/main.c:381:13: warning: statement with no effect [-Wunused-value]
   dataFromADC[0];
   ~~~~~~~~~~~^~~
 ../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
-../Core/Src/main.c:316:13: warning: statement with no effect [-Wunused-value]
+../Core/Src/main.c:396:13: warning: statement with no effect [-Wunused-value]
   dataFromADC[0];
   ~~~~~~~~~~~^~~
 arm-none-eabi-gcc -o "Trigger.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\CytomertGetDataSystem\Firmware_for_cytometr\Trigger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Trigger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -43,7 +58,7 @@ arm-none-eabi-objdump -h -S  Trigger.elf  > "Trigger.list"
 arm-none-eabi-objcopy  -O binary  Trigger.elf  "Trigger.bin"
 arm-none-eabi-size   Trigger.elf 
    text	   data	    bss	    dec	    hex	filename
-  26476	    488	   7856	  34820	   8804	Trigger.elf
+  26788	    388	   9924	  37100	   90ec	Trigger.elf
 Finished building: default.size.stdout
  
 Finished building: Trigger.bin
@@ -51,5 +66,5 @@ Finished building: Trigger.bin
 Finished building: Trigger.list
  
 
-14:26:05 Build Finished. 0 errors, 6 warnings. (took 1s.384ms)
+18:46:43 Build Finished. 0 errors, 8 warnings. (took 1s.344ms)
 

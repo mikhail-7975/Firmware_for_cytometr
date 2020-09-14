@@ -1,0 +1,10 @@
+21:07:49 **** Incremental Build of configuration Debug for project tact_generator_f103c8t6 ****
+make -j8 all 
+arm-none-eabi-size   tact_generator_f103c8t6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4580	     20	   1572	   6172	   181c	tact_generator_f103c8t6.elf
+Finished building: default.size.stdout
+ 
+
+21:07:50 Build Finished. 0 errors, 0 warnings. (took 375ms)
+
